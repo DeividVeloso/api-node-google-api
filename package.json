@@ -1,0 +1,21 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "googleapis": "^29.0.0",
+    "http": "0.0.0",
+    "server": "^1.1.0-alpha.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
